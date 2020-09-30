@@ -1,0 +1,147 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background:rgb(233, 233, 233);
+	font-family: "Poppins" ;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: whitesmoke;
+	color: orange;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: orangered;
+	font-family: "Poppins" ;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: orangered;
+	font-size: 25px;
+	font-family: "Poppins";
+  }
+  #menu_list{
+	background-color:transparent;
+	color:orangered; 
+	border: 3px solid orangered;
+	padding: 0rem 1rem;
+	text-transform: lowercase;
+	font-family: "Poppins";
+		
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: "Poppins" ;
+  }
+
+  #add_toppings{
+	/* padding-left:30px; */
+	padding: 0rem 1rem;
+	border: 2px solid rgb(255, 187, 0);
+	background-color: transparent;
+	color:rgb(255, 187, 0);
+	font-size: 25px;
+	font-family: "Poppins" ;
+  }
+
+  #add_item {
+	padding: 1rem;
+    font-size: 2rem;
+    border: none;
+    background: #fafafa;
+	font-family: "Poppins";
+	width: 200%;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
+
+ol.menulist>li
+{
+	padding-bottom:20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ }
+ 
+ div.card {
+    flex: 0 0 30%;
+	box-sizing: border-box;
+	color:black;
+	margin: 0.5rem .18em;
+	background-color: antiquewhite;
+	align-items: center;
+	font-size: medium;
+}
+.card img{
+	width:100px;
+	height: 80px;
+}
+
+
+.block1{
+	display: inline;
+}
+
+
+
